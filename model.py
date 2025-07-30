@@ -3,7 +3,7 @@ from speechbrain.inference.speaker import EncoderClassifier
 
 import torch                    # Pytorch module 
 import torch.nn as nn           # for creating  neural networks
-from aasist import Model
+from Vietnamese_SASV.aasist import Model
 
 class ECAPAEncoder(nn.Module):
     def __init__(self):
